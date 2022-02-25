@@ -1,4 +1,4 @@
-import styles from "../styles/Todos.module.css";
+import styles from "../../styles/Todos.module.css";
 
 interface ObjectApi {
   userId: number;
