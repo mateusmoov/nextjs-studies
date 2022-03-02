@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function NotFound() {
   return (
@@ -6,7 +7,8 @@ export default function NotFound() {
       <Head>
         <title>Pagina Principal</title>
       </Head>
-      <h1>TEM NADA AQUI PRA TU VER NAO</h1>
+      <Image src="/images/saia.jpg" height="700" width="400" />
+      <h1>SAIA IMEDIATAMENTE, NÃO TEM NADA PRA VOCÊ AQUI</h1>
     </>
   );
 }
